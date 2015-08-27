@@ -23,3 +23,6 @@ repositories {
         layout "gradle"
     }
 }
+dependencies {
+    compile 'com.mbientlab:metawear:2.0.18'
+}
