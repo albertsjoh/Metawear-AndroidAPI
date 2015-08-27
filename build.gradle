@@ -17,3 +17,9 @@ allprojects {
         jcenter()
     }
 }
+repositories {
+    ivy {
+        url "http://ivyrep.mbientlab.com"
+        layout "gradle"
+    }
+}
